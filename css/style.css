@@ -1,8 +1,21 @@
-/* =================
-    Global Style
-   ================= */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    direction: rtl;
+}
+#main-header {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    max-width: 1400px;
+}
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
